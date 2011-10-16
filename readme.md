@@ -1,6 +1,8 @@
 # Memetron 5000
 
-An attempt to replace Reddit w/ regular expressions:
+An attempt to replace Reddit w/ regular expressions.
+
+Similar, but not related to, http://meme.nbcr.net/meme/
 
 ```ruby
 @memes = {
