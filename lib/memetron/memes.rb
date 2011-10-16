@@ -27,5 +27,8 @@ module Memetron
     
     # Hipster Kitty
     :hipster_kitty => /I liked (.*) before (.*)/i,
+    
+    # Bear Grillis
+    :bear_grillis => /better drink my own piss/i,
   }
 end

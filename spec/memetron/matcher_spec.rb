@@ -98,4 +98,10 @@ describe Memetron::Matcher, "#match" do
       subject.match("I liked Ruby before Matz was born").should == :hipster_kitty
     end
   end
+  
+  context "Bear Grillis" do
+    it "is detected" do
+      subject.match("Write a Ruby library. Better drink my own piss").should == :bear_grillis
+    end
+  end
 end
