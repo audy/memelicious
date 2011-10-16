@@ -12,6 +12,10 @@ describe Memetron::Matcher, "#match" do
   it "returns nil if no match was found" do
     subject.match_and_parse('blerg blerg blerg').should be_nil
   end
+  
+  it "when multiple memes are present, the first match in memes.rb will be used. if this test fails it's because the order of memes changed." do
+    subject.match_and_parse('not sure if i can haz cheeseburger or better drink my own piss?').should == [:fry, ["not sure", "i can haz cheeseburger", "better drink my own piss?"]]
+  end
 
   context "Pokemon" do
     it "is detected" do
