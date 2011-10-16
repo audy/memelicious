@@ -8,6 +8,10 @@ describe Memetron::Matcher, "#match" do
   it "can match and parse a meme" do
     subject.match_and_parse("a wild charizard appears").should == [:pokemon, ['charizard']]
   end
+  
+  it "returns nil if no match was found" do
+    subject.match_and_parse('blerg blerg blerg').should be_nil
+  end
 
   context "Pokemon" do
     it "is detected" do
