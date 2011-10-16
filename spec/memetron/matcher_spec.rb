@@ -152,4 +152,18 @@ describe Memetron::Matcher, "#match" do
       subject.parse(:bear_grillis, "Write a Ruby library. Better drink my own piss").should == ["Write a Ruby library."]
     end
   end
+
+  context "I can haz" do
+    it "is detected" do
+      subject.match("I can haz Ruby library?").should == :i_can_haz
+    end
+    
+    it "should not work with an s instead of a z" do
+      subject.match("I can has Ruby library?").should be_nil
+    end
+    
+    it "is parsed" do
+      subject.parse(:i_can_haz, "I can haz Ruby library?").should == ['Ruby library?']
+    end
+  end
 end
