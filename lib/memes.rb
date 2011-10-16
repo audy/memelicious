@@ -17,5 +17,8 @@ class Memes
     
     # lets take all the memes and put them over here
     :patrick => /let'{0,}s take all the (.*) and put them over here/ 
+    
+    # soon
+    :soon => /soon/
   }
 end
