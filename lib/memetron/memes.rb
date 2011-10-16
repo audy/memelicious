@@ -24,5 +24,8 @@ module Memetron
 
     # Y U NO DO THIS?
     :y_u_no? => /(.*)Y U NO (.+)\?/i,
+    
+    # Hipster Kitty
+    :hipster_kitty => /I liked (.*) before (.*)/i,
   }
 end
