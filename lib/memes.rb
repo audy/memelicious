@@ -20,8 +20,6 @@ class Memes
     :patrick => /let'{0,}s take all the (.*) and put them over here/ 
     
     # soon
-    :soon => /soon/
-    
-    
+    :soon => /soon/ 
   }
 end
