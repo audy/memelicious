@@ -12,6 +12,11 @@ module Memetron
       end
     end
 
+    # Return variable regions of meme
+    def parse(meme, string)
+      MEMES[meme].match(string).to_a[1..-1]
+    end
+
     private
 
     def meme_name(meme_pair)
