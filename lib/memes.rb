@@ -14,5 +14,8 @@ class Memes
     
     # cant tell if this project is going to go anywhere or just end up on the bottom of my github profile
     :fry => /can'{0,} tell if (.*) or (.*)'/
+    
+    # lets take all the memes and put them over here
+    :patrick => /let'{0,}s take all the (.*) and put them over here/ 
   }
 end
