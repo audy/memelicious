@@ -158,8 +158,8 @@ describe Memetron::Matcher, "#match" do
       subject.match("I can haz Ruby library?").should == :i_can_haz
     end
     
-    it "should not work with an s instead of a z" do
-      subject.match("I can has Ruby library?").should be_nil
+    it "should work with either has or haz" do
+      subject.match("I can has Ruby library?").should == :i_can_haz
     end
     
     it "is parsed" do
