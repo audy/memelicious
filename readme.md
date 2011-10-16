@@ -1,12 +1,11 @@
 # Memetron 5000
 
-An attempt to replace Reddit w/ regular expressions.
+An attempt to replace Reddit with regular expressions.
 
 Similar, but not related to, http://meme.nbcr.net/meme/
 
 ```ruby
-@memes = {
-	# North Korea is Best Korea
-	:is_best => /(\w*\b) (\w*\b) is best (\w*\b)/
-}
+require 'lib/memetron'
+matcher = Memetron::Matcher.new
+matcher.match("North Korea is Best Korea") #=> :is_best
 ```
