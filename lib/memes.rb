@@ -12,6 +12,7 @@ class Memes
     # Yo dawg I heard you like regexp so I put a regexp in your regexp so you can blah
     :yo_dawg => /yo dawg I hea{,0}rd you like (.*) so I put a (.*) in your (.*) so you can (.*) while you (.*)/
     
-    
+    # cant tell if this project is going to go anywhere or just end up on the bottom of my github profile
+    :fry => /can'{0,} tell if (.*) or (.*)'/
   }
 end
