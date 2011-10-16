@@ -1,5 +1,5 @@
 class Memes
-  @memes = {
+  MEMES = {
     # "a wild ruby library appears"
     :pokemon => /a wild (.*) appears/i,
 
