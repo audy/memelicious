@@ -12,6 +12,8 @@ module Memetron
       end
     end
 
+    private
+
     def meme_name(meme_pair)
       meme_pair[0]
     end
