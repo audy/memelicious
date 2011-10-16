@@ -1,4 +1,4 @@
-require './memes'
+require File.join(File.dirname(__FILE__), 'memes')
 
 module Memetron
   class Matcher

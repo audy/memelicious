@@ -4,7 +4,7 @@ module Memetron
     :pokemon => /a wild (.+) appears/i,
 
     # "I don't always write regexp but when I do they break"
-    :dos_equis => /I don'?t always (.+) but when I do? (.+)/i,
+    :dos_equis => /I don'?t always (.+) but when I do (.+)/i,
 
     # "North Korea is best Korea"
     :is_best => /(\w+\b) (\w+\b) is best (\w+\b)/i,
@@ -23,6 +23,6 @@ module Memetron
     :soon => /^soon(\.|\.{3})?$/i,
 
     # Y U NO DO THIS?
-    :y_u_no? => /(.*)Y U NO (.*)\?/i,
+    :y_u_no? => /(.*)Y U NO (.+)\?/i,
   }
 end
