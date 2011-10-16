@@ -21,6 +21,9 @@ module Memetron
     #=> [:meme_name, ['parsed', 'meme', 'bits']]
     def match_and_parse(string)
       meme = match(string)
+      if meme.nil?
+        return meme
+      end
       bits = parse(meme, string)
       [meme, bits]
     end
