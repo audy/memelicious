@@ -16,7 +16,7 @@ module Memetron
     def parse(meme, string)
       MEMES[meme].match(string).to_a[1..-1]
     end
-    
+
     # Match and parse a meme
     #=> [:meme_name, ['parsed', 'meme', 'bits']]
     def match_and_parse(string)
