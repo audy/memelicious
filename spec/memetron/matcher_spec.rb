@@ -8,11 +8,11 @@ describe Memetron::Matcher, "#match" do
   it "can match and parse a meme" do
     subject.match_and_parse("a wild charizard appears").should == [:pokemon, ['charizard']]
   end
-  
+
   it "returns nil if no match was found" do
     subject.match_and_parse('blerg blerg blerg').should be_nil
   end
-  
+
   it "when multiple memes are present, the first match in memes.rb will be used. if this test fails it's because the order of memes changed." do
     subject.match_and_parse('not sure if i can haz cheeseburger or better drink my own piss?').should == [:fry, ["not sure", "i can haz cheeseburger", "better drink my own piss?"]]
   end
@@ -147,13 +147,13 @@ describe Memetron::Matcher, "#match" do
     end
   end
 
-  context "Bear Grillis" do
+  context "Bear Grylls" do
     it "is detected" do
-      subject.match("Write a Ruby library. Better drink my own piss").should == :bear_grillis
+      subject.match("Write a Ruby library. Better drink my own piss").should == :bear_grylls
     end
 
     it "is parsed" do
-      subject.parse(:bear_grillis, "Write a Ruby library. Better drink my own piss").should == ["Write a Ruby library."]
+      subject.parse(:bear_grylls, "Write a Ruby library. Better drink my own piss").should == ["Write a Ruby library."]
     end
   end
 
@@ -161,11 +161,11 @@ describe Memetron::Matcher, "#match" do
     it "is detected" do
       subject.match("I can haz Ruby library?").should == :i_can_haz
     end
-    
+
     it "should work with either has or haz" do
       subject.match("I can has Ruby library?").should == :i_can_haz
     end
-    
+
     it "is parsed" do
       subject.parse(:i_can_haz, "I can haz Ruby library?").should == ['Ruby library?']
     end
