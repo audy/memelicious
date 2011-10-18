@@ -11,7 +11,9 @@ matcher = Memetron::Matcher.new
 
 matcher.match("North Korea is Best Korea") #=> :is_best
 
-mather.parse("Wrote a Ruby library, better drink my own piss") #=> ["Wrote a Ruby library,"]
+matcher.parse("Wrote a Ruby library, better drink my own piss") #=> ["Wrote a Ruby library,"]
+
+matcher.match_and_parse("I can has meme parsed?") #=> [:i_can_haz, ["meme parsed?"]]
 ```
 
 ## Why?
