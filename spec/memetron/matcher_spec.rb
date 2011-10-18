@@ -170,4 +170,18 @@ describe Memetron::Matcher, "#match" do
       subject.parse(:i_can_haz, "I can haz Ruby library?").should == ['Ruby library?']
     end
   end
+  
+  context "Jimmy McMillan" do
+    it "is detected" do
+      subject.match("The level of information is too damn high!").should == :jimmy_mcmillan
+    end
+    
+    it "should only match when an exclamation mark is present" do
+      subject.match("The level of information is too damn high").should be_nil
+    end
+    
+    it "is parsed" do
+      subject.parse(:jimmy_mcmillan, "The level of information is too damn high!").should == ["The level of information"]
+    end
+  end
 end

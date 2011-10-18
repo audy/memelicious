@@ -32,6 +32,9 @@ module Memetron
     :bear_grillis => /(.*) better drink my own piss/i,
 
     # I can haz cheeseburger
-    :i_can_haz => /I can ha[zs] (.*)/i
+    :i_can_haz => /I can ha[zs] (.*)/i,
+
+    # Jimmy McMillan is too damn high!
+    :jimmy_mcmillan => /(.*) is too damn high!/i,
   }
 end
