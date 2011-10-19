@@ -39,5 +39,8 @@ module Memetron
     
     # I find your lack of tests disturbing
     :darth_vader => /I find your lack of (.*) disturbing/i,
+    
+    # Prepare yourself, the procedurally generated memes are coming
+    :sean_bean => /Prepare yourself,? the (.*) are coming/i,
   }
 end

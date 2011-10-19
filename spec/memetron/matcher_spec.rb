@@ -194,4 +194,14 @@ describe Memetron::Matcher, "#match" do
       subject.parse(:darth_vader, "I find your lack of tests disturbing").should == ["tests"]
     end
   end
+  
+  context "Sean Bean" do
+    it "is matched" do
+      subject.match("Prepare yourself, the memes are coming").should == :sean_bean
+    end
+    
+    it "is parsed" do
+      subject.parse(:sean_bean, "Prepare yourself, the memes are coming").should == ["memes"]
+    end
+  end
 end
