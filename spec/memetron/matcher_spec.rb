@@ -63,6 +63,10 @@ describe Memetron::Matcher, "#match" do
     it "is detected despite poor grammar" do
       subject.match("yo dawg i herd you like stereos so i put a stereo in your car so you can listen while you listen").should == :yo_dawg
     end
+    
+    it "matches when the \"thing\" has multiple words in it" do
+      subject.match("yo dawg I heard you like regular expressions so I put a regular expression in your regular expression so you can match patterns while you match patterns").should == :yo_dawg
+    end
 
     it "is parsed" do
       subject.parse(:yo_dawg, "yo dawg i heard you like stereos so i put a stereo in your car so you can listen while you listen").should == ['stereos', 'stereo', 'car', 'listen', 'listen']
