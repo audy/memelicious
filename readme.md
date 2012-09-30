@@ -5,15 +5,12 @@ Identify and parse internet "memes" in Ruby
 ## How
 
 ```ruby
-require 'lib/memetron'
+require 'memetron'
 
-matcher = Memetron::Matcher.new
+Memetron::Matcher.match('A wild Ruby library appears')
+# => ['Ruby Library']
 
-matcher.match("North Korea is Best Korea") #=> :is_best
 
-matcher.parse("Wrote a Ruby library, better drink my own piss") #=> ["Wrote a Ruby library,"]
-
-matcher.match_and_parse("I can has meme parsed?") #=> [:i_can_haz, ["meme parsed?"]]
 ```
 
 ## Make your own meme using the awesome DSl
