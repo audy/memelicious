@@ -35,10 +35,10 @@ module Memetron
 
     # Jimmy McMillan is too damn high!
     :jimmy_mcmillan => /(.*) is too damn high!/i,
-    
+
     # I find your lack of tests disturbing
     :darth_vader => /I find your lack of (.*) disturbing/i,
-    
+
     # Prepare yourself, the procedurally generated memes are coming
     :sean_bean => /Prepare yourself,? the (.*) are coming/i,
   }
