@@ -43,7 +43,7 @@ module Memetron
       @positive_examples[@last_added] = example
     end
 
-    def descendants
+    def memes
       ObjectSpace.each_object(Class).select { |klass| klass < self }
     end
 
