@@ -11,7 +11,7 @@ Memetron::Matcher.match('A wild Ruby library appears')
 # => [Memetron::Pokemon, 'Ruby Library']
 ```
 
-## Make your own meme using the awesome DSl
+## Make your own meme using the awesome DSL
 
 ```ruby
 
