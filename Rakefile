@@ -16,7 +16,7 @@ require 'rake'
 
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
-  gem.name = "dna"
+  gem.name = "memetron"
   gem.homepage = "http://audy.github.com/memetron"
   gem.license = "public domain"
   gem.summary = "Identify and parse memes using Ruby"
