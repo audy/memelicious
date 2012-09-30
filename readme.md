@@ -8,9 +8,7 @@ Identify and parse internet "memes" in Ruby
 require 'memetron'
 
 Memetron::Matcher.match('A wild Ruby library appears')
-# => ['Ruby Library']
-
-
+# => [Memetron::Pokemon, 'Ruby Library']
 ```
 
 ## Make your own meme using the awesome DSl
