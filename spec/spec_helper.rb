@@ -12,11 +12,7 @@ def test_meme(meme)
     # test positive examples
     meme.positive_examples.each do |positive, ret|
       it "should match \"#{positive}\"" do
-        if ret
-          expect(meme.match(positive)).to eq(ret)
-        else
-          expect(meme.match(positive)).to eq(false)
-        end
+        expect(meme.match(positive)).to eq(ret)
       end
     end
 

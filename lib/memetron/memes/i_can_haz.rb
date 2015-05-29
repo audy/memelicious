@@ -4,7 +4,5 @@ module Memetron
 
     should_match "I can has regular expressions?"
     and_return "regular expressions?"
-
-    should_match "I can haz regular expressions?"
   end
 end
