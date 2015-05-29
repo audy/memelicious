@@ -1,4 +1,4 @@
-# Memetron
+# Memelicious
 
 [![Build
 Status](https://travis-ci.org/audy/memetron.svg?branch=master)](https://travis-ci.org/audy/memetron)
@@ -10,15 +10,15 @@ Identify and parse internet "memes" in Ruby.
 ```ruby
 require 'memetron'
 
-Memetron::Matcher.match('A wild Ruby library appears')
-# => [Memetron::Pokemon, 'Ruby Library']
+Memelicious::Matcher.match('A wild Ruby library appears')
+# => [Memelicious::Pokemon, 'Ruby Library']
 ```
 
 ## Define memes using the DSL
 
 ```ruby
 
-module Memetron
+module Memelicious
   class SeanBean < Meme
     # define meme as a regular expression
     matcher /Prepare yourself,? (.*) are coming/i
