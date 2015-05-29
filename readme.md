@@ -18,7 +18,7 @@ gem 'memelicious'
 ## How
 
 ```ruby
-require 'memetron'
+require 'memelicious'
 
 Memelicious::Matcher.match('A wild Ruby library appears')
 # => [Memelicious::Pokemon, 'Ruby Library']
