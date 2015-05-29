@@ -46,6 +46,8 @@ end
 
 Submit a pull request with your meme and at least one positive example.
 
+Plz test thusly: `bundle exec rspec`.
+
 ## Why?
 
 For the lulz.
