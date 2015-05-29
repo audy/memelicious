@@ -13,9 +13,9 @@ def test_meme(meme)
     meme.positive_examples.each do |positive, ret|
       it "should match \"#{positive}\"" do
         if ret
-          meme.match(positive).should == ret
+          expect(meme.match(positive)).to eq(ret)
         else
-          meme.match(positive).should_not be_false
+          expect(meme.match(positive)).to eq(false)
         end
       end
     end
@@ -24,7 +24,7 @@ def test_meme(meme)
     unless meme.negative_examples.nil?
       meme.negative_examples.each do |negative|
         it "should not match \"#{negative}\"" do
-          meme.match(negative).should be_false
+          expect(meme.match(negative)).to eq(false)
         end
       end
     end
