@@ -1,5 +1,8 @@
 # Memetron
 
+[![Build
+Status](https://travis-ci.org/audy/memetron.svg?branch=master)](https://travis-ci.org/audy/memetron)
+
 Identify and parse internet "memes" in Ruby.
 
 ## How
