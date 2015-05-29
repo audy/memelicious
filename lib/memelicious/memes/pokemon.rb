@@ -1,4 +1,4 @@
-module Memetron
+module Memelicious
   class Pokemon < Meme
     matcher /a wild (.+) appears/i
 

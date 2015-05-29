@@ -1,4 +1,4 @@
-module Memetron
+module Memelicious
   class YoDawg < Meme
     matcher /yo dawg I hea?rd you like (.*) so I put a (.*) in your (.*) so you can (.*) while you (.*)/i
 

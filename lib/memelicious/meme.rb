@@ -1,4 +1,4 @@
-module Memetron
+module Memelicious
 
   ##
   # This class is inherited by memes and used to do the following

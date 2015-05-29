@@ -1,4 +1,4 @@
-module Memetron
+module Memelicious
   class ICanHaz < Meme
     matcher /I can ha[zs] (.*)/i
 

@@ -3,7 +3,7 @@ $LOAD_PATH << File.join(File.dirname(__FILE__), "lib")
 require 'bundler'
 Bundler.require :test
 
-require 'memetron'
+require 'memelicious'
 
 def test_meme(meme)
 

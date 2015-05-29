@@ -1,4 +1,4 @@
-module Memetron
+module Memelicious
   class IsBest < Meme
     matcher /(\w+\b) (?<string>\w+\b) is best (\k<string>)/i
 

@@ -1,4 +1,4 @@
-module Memetron
+module Memelicious
   class ForTheGod < Meme
     matcher /(.*) for the (.*) god/i
 

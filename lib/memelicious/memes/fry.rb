@@ -1,4 +1,4 @@
-module Memetron
+module Memelicious
   class Fry < Meme
     matcher /(can'?t tell|not sure) if (.+) or (.+)/i
 

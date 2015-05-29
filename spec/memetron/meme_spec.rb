@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe Memetron::Meme do
+describe Memelicious::Meme do
   it 'can be created' do
-    class TestMeme < Memetron::Meme
+    class TestMeme < Memelicious::Meme
 
     end.class
   end

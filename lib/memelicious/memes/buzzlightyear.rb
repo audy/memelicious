@@ -1,4 +1,4 @@
-module Memetron
+module Memelicious
   class BuzzLightyear < Meme
     matcher /(?<string>.*)[,\.\n\s](\s*)\k<string> everywhere/i
 

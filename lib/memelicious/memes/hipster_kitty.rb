@@ -1,4 +1,4 @@
-module Memetron
+module Memelicious
   class HipsterKitty < Meme
     matcher /I liked (.*) before (.*)/i
 

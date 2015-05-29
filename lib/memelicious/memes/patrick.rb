@@ -1,4 +1,4 @@
-module Memetron
+module Memelicious
   class Patrick < Meme
     matcher /let'?s take all the (.*) and (.*)/
 

@@ -1,4 +1,4 @@
-module Memetron
+module Memelicious
   class DarthVader < Meme
     matcher /I find your lack of (.*) disturbing/i
 

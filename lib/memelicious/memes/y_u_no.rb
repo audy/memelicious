@@ -1,4 +1,4 @@
-module Memetron
+module Memelicious
   class YUNo < Meme
     matcher /Y U No (.+)\?/i
 

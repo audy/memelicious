@@ -1,4 +1,4 @@
-module Memetron
+module Memelicious
   class SeanBean < Meme
     matcher /Prepare yourself,? (.*) are coming/i
 

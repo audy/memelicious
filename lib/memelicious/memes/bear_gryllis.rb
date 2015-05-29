@@ -1,4 +1,4 @@
-module Memetron
+module Memelicious
   class BearGryllis < Meme
     matcher /(.*) better drink my own piss/i
 

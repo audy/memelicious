@@ -1,4 +1,4 @@
-module Memetron
+module Memelicious
   class SovietRussia < Meme
     matcher /in soviet russia,? (.*) you!?/i
 

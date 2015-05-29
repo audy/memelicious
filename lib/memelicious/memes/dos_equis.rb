@@ -1,4 +1,4 @@
-module Memetron
+module Memelicious
   class DosEquis < Meme
     matcher /I don'?t always (.*) but when I do (.*)/i
 

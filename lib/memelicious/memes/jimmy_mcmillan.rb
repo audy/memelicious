@@ -1,4 +1,4 @@
-module Memetron
+module Memelicious
   class JimmyMcMillan < Meme
     matcher /(.*) is too damn high!/i
 

@@ -1,4 +1,4 @@
-module Memetron
+module Memelicious
   class Soon < Meme
     matcher /^soon(\.|\.{3})?$/i
 
