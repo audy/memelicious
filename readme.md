@@ -51,3 +51,5 @@ Plz test thusly: `bundle exec rspec`.
 ## Why?
 
 For the lulz.
+
+<kbd>boop</kbd>
