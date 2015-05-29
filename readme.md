@@ -5,6 +5,16 @@ Status](https://travis-ci.org/audy/memelicious.svg?branch=master)](https://travi
 
 Identify and parse internet "memes" in Ruby.
 
+## Installation
+
+`gem install memelicious`
+
+or add to your `Gemfile`:
+
+```ruby
+gem 'memelicious'
+```
+
 ## How
 
 ```ruby
