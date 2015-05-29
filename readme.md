@@ -1,7 +1,7 @@
 # Memelicious
 
 [![Build
-Status](https://travis-ci.org/audy/memetron.svg?branch=master)](https://travis-ci.org/audy/memetron)
+Status](https://travis-ci.org/audy/memelicious.svg?branch=master)](https://travis-ci.org/audy/memelicious)
 
 Identify and parse internet "memes" in Ruby.
 
