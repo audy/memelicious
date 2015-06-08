@@ -3,7 +3,9 @@
 [![Build
 Status](https://travis-ci.org/audy/memelicious.svg?branch=master)](https://travis-ci.org/audy/memelicious)
 
-Identify and parse internet "memes" in Ruby.
+Identify and parse internet "memes" in Ruby. The Ruby gem formely known as
+memetron (I had to change the name because some meanie stole the gem on
+RubyGems.org).
 
 ## Installation
 
